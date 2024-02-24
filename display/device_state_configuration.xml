@@ -1,0 +1,30 @@
+<device-state-config>
+    <device-state>
+        <identifier>0</identifier>
+        <name>CLOSED</name>
+        <conditions>
+            <sensor>
+                <type>com.motorola.sensor.flip</type>
+                <name>Flip Position  Wakeup</name>
+                <value>
+                    <min-inclusive>2</min-inclusive>
+                    <max-inclusive>3</max-inclusive>
+                </value>
+            </sensor>
+        </conditions>
+    </device-state>
+    <device-state>
+        <identifier>1</identifier>
+        <name>OPENED</name>
+        <conditions>
+            <sensor>
+                <type>com.motorola.sensor.flip</type>
+                <name>Flip Position  Wakeup</name>
+                <value>
+                    <min-inclusive>0</min-inclusive>
+                    <max-inclusive>1</max-inclusive>
+                </value>
+            </sensor>
+        </conditions>
+    </device-state>
+</device-state-config>

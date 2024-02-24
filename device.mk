@@ -70,3 +70,8 @@ PRODUCT_SOONG_NAMESPACES += \
 # Touch
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/touch/input-port-associations.xml:$(TARGET_COPY_OUT_VENDOR)/etc/input-port-associations.xml
+
+# Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/display/device_state_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/devicestate/device_state_configuration.xml \
+    $(LOCAL_PATH)/display/display_layout_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_layout_configuration.xml
