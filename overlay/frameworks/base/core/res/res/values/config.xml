@@ -212,11 +212,6 @@
         <item>1:2</item>
     </string-array>
 
-    <!-- Device states that indicate a folded device -->
-    <integer-array name="config_foldedDeviceStates">
-        <item>0</item>
-    </integer-array>
-
     <!-- The device states (supplied by DeviceStateManager) that should be treated as folded by the
          display fold controller. Default is empty. -->
     <integer-array name="config_foldedDeviceStates">
