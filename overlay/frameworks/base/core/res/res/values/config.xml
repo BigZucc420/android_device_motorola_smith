@@ -254,4 +254,16 @@
       <item>"local:4630947043778501761"</item>
       <item>"local:4630947043778501762"</item>
     </string-array>
+
+    <!-- When a device enters any of these states, it should be woken up. States are defined in
+         device_state_configuration.xml. -->
+    <integer-array name="config_deviceStatesOnWhichToWakeUp">
+        <item>1</item>
+    </integer-array>
+
+    <!-- When a device enters any of these states, it should go to sleep. States are defined in
+         device_state_configuration.xml. -->
+    <integer-array name="config_deviceStatesOnWhichToSleep">
+        <item>0</item>
+    </integer-array>
 </resources>
